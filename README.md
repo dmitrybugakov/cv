@@ -8,7 +8,7 @@ Format is MIT but all the data is owned by Dmitry Bugakov.
 
 ## Acknowledgments
 
-* To [@wilmeragsgh](https://github.com/wilmeragsgh/) for the source code!
+* To [@wilmeragsgh](https://github.com/wilmeragsgh) for the source code!
 
 
 docker run --rm -i -v C:/${PROJECT_HOME}/cv:/data latex pdflatex source.tex
