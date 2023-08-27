@@ -46,7 +46,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{1pt}\scshape\raggedright\large
+    \vspace{1pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 % ---
 
@@ -55,24 +55,24 @@
 \newcommand{\sepsection}{\vspace{25pt}}
 
 \newcommand{\resumeItem}[1]{%2
-  \item\small{
+    \item\small{
     %\textbf{#1}
-    #1
+        #1
     %{: #2 \vspace{-2pt}}
-  }
+    }
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{8pt}\item%-1
+    \vspace{8pt}\item%-1
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textnormal{#3} & \textit{\small #4} \\
+        \textbf{#1}     & #2                 \\
+        \textnormal{#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-5pt}
 }
 \newcommand{\resumeSubSubheading}[2]{
     \vspace{5pt}
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textnormal{#1} & \textit{\small #2} \\
+        \textnormal{#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-5pt}
 }
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
@@ -84,7 +84,7 @@
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 \newcommand{\resumeTech}[2]{
- \underline{#1:} #2
+\underline{#1:} #2
 }
 
 % COLOR THEMES SELECTION
@@ -97,178 +97,167 @@
 % ---
 
 % For Dark theme un-comment this and comment the Light theme section above
- \colorlet{textcolor}{white!80!gray}
- \colorlet{backgroundcolor}{black!30!gray}
- \colorlet{urlcolor}{blue!25!white}
- \AtBeginDocument{\color{textcolor}}
+\colorlet{textcolor}{white!80!gray}
+\colorlet{backgroundcolor}{black!30!gray}
+\colorlet{urlcolor}{blue!25!white}
+\AtBeginDocument{\color{textcolor}}
 
- \begin{document}
- \pagecolor{backgroundcolor}
+\begin{document}
+\pagecolor{backgroundcolor}
 % ---
-
-
 
 
 % HEADING
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Large Dmitry Bugakov} \href{https://linktr.ee/dmitrybugakov}{\color{urlcolor} \faicon{link}}\\
-  \textnormal{Data Engineering Technical lead/ Data Architect} & \href{mailto:dmitrybugakovdev@gmail.com}{\color{urlcolor}{\faicon{envelope}} \color{textcolor} dmitrybugakov} \\
-  \textnormal{Moscow, Russian Federation} \\
+\textbf{\Large Dmitry Bugakov} & \textnormal{Email:} \href{mailto:dmitrybugakovdev@gmail.com}{dmitrybugakovdev@gmail.com}\\
+\textnormal{Senior Data Engineer \textbar Technical lead} & \href{https://www.linkedin.com/in/dmitrybugakov/}{ \color{urlcolor}{\faicon{linkedin}} \color{textcolor} LinkedIn} \\
+\textnormal{Berlin, Germany.} & \href{https://github.com/dmitrybugakov}{ \color{urlcolor}{\faicon{github}} \color{textcolor} GitHub}\\
 \end{tabular*}
-% ---
 \vspace{1em}
-
-
-
-
+% ---
 
 % ABOUT ME
 \section{About me}
 
-  \textnormal{Data Engineer/ Architect with a degree in Computer Science and 8+ years of progressive experience designing data-driven solutions including building complex data pipelines, creating analytic frameworks, data lake and data warehouses.}
+\textnormal{Data Engineer \textbar Architect with a Computer Science degree and over 10 years of experience in designing data-focused solutions. This includes creating data pipelines, analytical tools, data lakes, and warehouses. I have a keen interest in OpenSource projects and am driven by a passion for leveraging technology to better our world.}
+
 
 \resumeItemListStart
-  \resumeItem{Deep theoretical knowledge and solid experience with Big Data technology stack (Hadoop, Spark, Airflow), high-load, and fault-tolerant systems.}
-  \resumeItem{Extensive knowledge of using cloud solutions(AWS, GCP).}
-  \resumeItem{Experience building Data Governance, Data Quality, Data Lineage, DataOps.}
-  \resumeItem{Experience building SDLC, code quality, CI/CD, and MLOps processes.}
-  \resumeItem{Experience in system design, development of PoC, and projects from scratch.}
-  \resumeItem{Participation in more than 100 technical interviews as an interviewer.}
+\resumeItem{Strong understanding and hands-on experience with Big Data tools such as Hadoop, Spark, and Airflow, along with high-capacity and resilient systems.}
+\resumeItem{Well-versed in cloud platforms like AWS and GCP.}
+\resumeItem{Have built streaming solutions using tools such as Kinesis, Kafka, and Pub/Sub combined with Spark streaming.}
+\resumeItem{Proficient in developing data-centric architectures, ensuring data governance, and maintaining data quality.}
+\resumeItem{Skilled in navigating SDLC processes, upholding code quality standards, and implementing CI/CD processes with monitoring pipelines.}
+\resumeItem{Familiar with DataOps and MLOps methods.}
+\resumeItem{Good at designing systems, starting new projects, and building prototypes.}
+\resumeItem{Conducted over 100 technical interviews as part of hiring processes.}
 \resumeItemListEnd
+
 % ---
 \vspace{1em}
 
 
-
-
-
-
 % EXPERIENCE
 \section{Experience}
-  \resumeSubHeadingListStart
-   
- % --- Grid Dynamics --- START
-    \resumeSubheading
-      {Grid Dynamics \href{https://www.griddynamics.com/}{\color{urlcolor}\faicon{link}}}{Saint Petersburg, Russian Federation}
-      {Staff Data Engineer/ Data Architect}{November 2020 - June 2021}
+\resumeSubHeadingListStart
 
-      \resumeProjectDescription{Vontier}{Data Science platform for working with data and models.}
+% --- Deutsche Bank --- START
+\resumeSubheading
+{Deutsche Bank \href{www.db.com/}{\color{urlcolor}\faicon{link}}}{Berlin, Germany}
+{Senior Data Engineer \textbar Technical lead}{August 2021 - now}
 
-      \resumeItemListStart
-      \resumeItem{Design data platform solutions and architecture}
-      \resumeItem{Manage data engineering}
-      \resumeItem{MLOps, CI/CD, release and git flow management}
-      \resumeItem{A/B testing and monitoring}
-      \resumeItemListEnd
-      \resumeTech{Technologies}{Python, PySpark, Pandas, Airflow, Scikit learn, Statsmodels, MLflow, AWS(S3, EMR, EKS, Redshift, Kinesis, SageMaker, I​AM, KMS, Cloudformation), Jenkins}
+\resumeProjectDescription{Project}{Crafted a Data Platform and Data Lake tailored for BI, ensuring swift access to marts with minimal latency.}
 
-    \resumeSubSubheading
-      {Data Engineering Technical lead}{May 2020 - November 2020}
+\resumeItemListStart
+\resumeItem{Led the revamp of the data platform, minimizing legacy components and transitioning over 100 pipelines to contemporary methodologies.}
+\resumeItem{Enhanced development processes by integrating Agile methodologies and fortifying CI/CD pipelines, resulting in heightened productivity and expedited deployment.}
+\resumeItem{Oversaw SRE and SL3 practices to ensure reliability and optimal performance.}
+\resumeItemListEnd
+\resumeTech{Technologies}{Java, Scala, Python, Maven, Hadoop, Clickhouse, Akka, Apache Spark, Pandas, Jupyter, Tableau, Bitbucket, TeamCity etc.}\\
+% --- Deutsche Bank --- END
 
-      \resumeProjectDescription{Green Chef}{Data Lake for the HelloFresh department in Germany.}
+\sepsection
 
-      \resumeItemListStart
-      \resumeItem{Design data platform solutions and architecture}
-      \resumeItem{Manage data engineering team}
-      \resumeItem{General debugging, bug fixing and refactoring, code reviewing}
-      \resumeItem{CI/CD, release and git flow management}
-      \resumeItemListEnd
-      \resumeTech{Technologies}{Python, Scala, Spark, boto3, SQL, AWS(EMR, Glue, Deequ, DMS, S3, Redshift, CloudWatch), PyTest, MongoDB, Parquet, PostgreSQL, Circleci, Docker, Confluence, Jira, GitHub}
+% --- Grid Dynamics --- START
+\resumeSubheading
+{Grid Dynamics \href{https://www.griddynamics.com/}{\color{urlcolor}\faicon{link}}}{Saint Petersburg, Russian Federation}
+{Staff Data Engineer \textbar Technical lead}{November 2020 - June 2021}
 
-    \resumeSubSubheading
-      {Data Engineering Technical lead}{July 2019 - May 2020}
+\resumeProjectDescription{Project}{Vontier - Developed a combined Data and Data Science platform for enhanced data analysis and model management.}
+\resumeItemListStart
+\resumeItem{Architected data platform solutions, ensuring optimal performance and scalability.}
+\resumeItem{Directed data engineering initiatives, leading innovations and ensuring best practices.}
+\resumeItem{Implemented MLOps and streamlined CI/CD processes, along with A/B test monitoring.}
+\resumeItemListEnd
+\resumeTech{Technologies}{Python, PySpark, Pandas, Airflow, Scikit learn, Statsmodels, MLflow, AWS(S3, EMR, Redshift, Kinesis, SageMaker, IAM, KMS, Cloudformation), Jenkins, and more.}
 
-      \resumeProjectDescription{Kohl’s}{Data Lake for American department store retail chain, operated by Kohl's Corp.}
+\resumeSubSubheading
+{Senior Data Engineer \textbar Technical lead}{May 2020 - November 2020}
 
-      \resumeItemListStart
-      \resumeItem{Design and implement data platform}
-      \resumeItem{Management of the team of developers}
-      \resumeItem{Development of functional and implementation designs, specifications, accompanying documentation for the code}
-      \resumeItemListEnd
-      \resumeTech{Technologies}{Scala, Python, Cats, Hadoop, Avro, Spark, Airflow, Maven, GCP(Dataflow, Dataproc, Pub/Sub, BigQuery), ScalaTest, PyTest, Vault, Protegrity, Pgp, Zeppelin, Jenkins, Docker, Confluence, Jira, Sonar, Gerrit, Git}\\
- % --- Grid Dynamics --- END
+\resumeProjectDescription{Project}{HelloFresh, Germany - Spearheaded the redesign and migration of Data Platform and Data Lake to accommodate rapid growth during the pandemic.}
 
-    \sepsection
+\resumeItemListStart
+\resumeItem{Architected and executed the data platform, creating an efficient data processing framework.}
+\resumeItem{Led the data engineering team, driving innovations and best practices.}
+\resumeItem{Streamlined development with Agile methodologies and enhanced CI/CD pipelines, boosting productivity and deployment speed.}
+\resumeItemListEnd
+\resumeTech{Technologies}{Python, Scala, Spark, Deequ, AWS suite (including EMR, Glue, and Redshift), PostgreSQL, Circleci, Docker, Jira, GitHub, and more.}
 
- % --- PerfectArt --- START
-    \resumeSubheading
-      {PerfectArt \href{https://perfectart.ru/}{\color{urlcolor}\faicon{link}}}{Moscow, Russian Federation}
-      {Data Engineering Technical lead}{June 2018 - June 2019}
-      
-      \resumeProjectDescription{DB Schenker}{Data Lake for the logistic company in Germany.}
+\resumeSubSubheading
+{Senior Data Engineer \textbar Technical lead}{July 2019 - May 2020}
 
-      \resumeItemListStart
-      \resumeItem{Development of data processing pipelines using distributed computing technologies}
-      \resumeItem{Design data lake and data on-boarding process}
-      \resumeItem{General debugging, bug fixing and refactoring, code reviewing}
-      \resumeItem{CI/CD, release and git flow management}
-      \resumeItem{Preparation of the training to support customers}
-      \resumeItemListEnd
-      \resumeTech{Technologies}{Scala, Java, Python, SQL, Hadoop, Hive, HBase, Orc, Spark, Airflow, Cats, Slick, Akka-Http, Sbt, AWS(EMR, S3), PostgreSQL, Elasticsearch, Kafka, Filebeat, Logstash, ScalaTest, TestContainers, Gitlab, Docker, MysqlWorkbench, Confluence, Jira, Git}\\
- % --- PerfectArt --- END
-      
-    \sepsection
+\resumeProjectDescription{Project}{Kohl’s - Engineered a Data Platform and Data Lake for the prominent American retailer, Kohl's Corp. (Project concluded amidst the pandemic.)}
 
- % --- Sberbank --- START
-    \resumeSubheading
-      {Sber \href{https://www.sberbank.ru/}{\color{urlcolor}\faicon{link}}}{Moscow, Russian Federation}
-      {Machine Learning Engineer}{November 2017 - May 2018}
+\resumeItemListStart
+\resumeItem{Developed an efficient data processing framework while optimizing GCP interactions to reduce costs.}
+\resumeItem{Delivered detailed designs, specifications, and comprehensive documentation.}
+\resumeItem{Guided and nurtured team members, emphasizing technical proficiency and fostering a culture of innovation.}
+\resumeItemListEnd
+\resumeTech{Technologies}{Scala, Python, Cats, Hadoop, Spark, Airflow, Maven, GCP(Dataflow, Dataproc, Pub/Sub, BigQuery), Vault, Protegrity, Pgp, Zeppelin, Jenkins, Docker, Confluence, Jira, Sonar, Gerrit, Git, etc.}\\
+% --- Grid Dynamics --- END
 
-      \resumeProjectDescription{Debt Probability Model}{the model helps to assess the likelihood of debt for a client.}
+\sepsection
 
-      \resumeItemListStart
-      \resumeItem{Contributing in all phases of the development life-cycle and release management}
-      \resumeItem{General debugging, bug fixing and refactoring, code reviewing}
-      \resumeItem{A/B testing and monitoring}
-      \resumeItemListEnd
-      \resumeTech{Technologies}{Python2.7, PySpark, Pandas, Numpy, SciPy, Xgboost, Hyperopt, Bash, Confluence, Jira, Git}
+% --- PerfectArt --- START
+\resumeSubheading
+{PerfectArt \href{https://perfectart.ru/}{\color{urlcolor}\faicon{link}}}{Moscow, Russian Federation}
+{Senior Data Engineer \textbar Technical lead}{June 2018 - June 2019}
 
-    \resumeSubSubheading
-      {Senior Data Engineer}{July 2016 - November 2017}
+\resumeProjectDescription{Project}{Constructed a Data Platform and Data Lake for DB Schenker, a premier logistics company in Germany.}
 
-      \resumeProjectDescription{DataFactory}{the Data Lake which is going to be used by all data-dependent projects in the bank. Literally single source of truth for the bank.}
+\resumeItemListStart
+\resumeItem{Actively contributed to the overarching design of the data platform architecture.}
+\resumeItem{Engineered and implemented key parts of data ingestion into the platform.}
+\resumeItem{Streamlined CI/CD processes and optimized git workflows.}
+\resumeItemListEnd
+\resumeTech{Technologies}{Scala, Python, Hadoop, Hive LLAP, Spark, Akka, Slick, AWS (EMR, S3), Kafka, Gitlab, Docker, Jira, among others.}\\
+% --- PerfectArt --- END
 
-      \resumeItemListStart
-      \resumeItem{Development of data processing pipelines using distributed computing technologies}
-      \resumeItem{Actively involved in overall architecture design, continuous integration adjustment and deployment process}
-      \resumeItem{Creation proof of possible architecture concept and realization of some of my proposal solutions of these issues}
-      \resumeItem{Identifying bottlenecks, defects and solutions to these issues}
-      \resumeItem{General debugging, bug fixing and refactoring, code reviewing}
-      \resumeItemListEnd
-      \resumeTech{Technologies}{Scala, Bash, SBT, Spark, Hadoop, Parquet, Hive, Oozie, Confluence, Jira, Git, Jenkins.}\\
- % --- Sberbank --- END
-    
-    \sepsection
+\sepsection
 
- % --- AT Consulting --- START
-    \resumeSubheading
-      {AT Consulting \href{https://www.at-consulting.ru/}{\color{urlcolor}\faicon{link}}}{Moscow, Russian Federation}
-      {Data Engineer}{October 2013 - June 2016}
-      
-      \resumeProjectDescription{PJSC VimpelCom}{Data Lake for the telecom operator in Russia.}
+% --- Sberbank --- START
+\resumeSubheading
+{Sber \href{https://www.sberbank.ru/}{\color{urlcolor}\faicon{link}}}{Moscow, Russian Federation}
+{Senior Data Engineer}{July 2016 - May 2018}
 
-      \resumeItemListStart
-      \resumeItem{Development of data processing pipelines using distributed computing technologies}
-      \resumeItem{Performance optimization and stabilization of a system}
-      \resumeItem{General debugging, bug fixing and refactoring, code reviewing}
-      \resumeItemListEnd
-      \resumeTech{Technologies}{Java 8, SQL, Maven, Hadoop, Mapreduce, Hive, Pig, Sqoop, Oozie, Avro, Orc, Oracle, Atlassian Confluence, Jira, CentOS (bash), SVN}\\
- % --- PerfectArt --- END
+\resumeProjectDescription{Factory of Data}{A central Data Lake designed to serve all data-centric projects within the bank, acting as the primary source of truth.}
 
-    \resumeSubHeadingListEnd
+\resumeItemListStart
+\resumeItem{Developed a data processing framework using Apache Spark and Apache Hadoop.}
+\resumeItem{Implemented data processing pipelines with the same technologies.}
+\resumeItem{Managed debugging processes, refactored code, and conducted code reviews.}
+\resumeItemListEnd
+\resumeTech{Technologies}{Scala, Bash, SBT, Spark, Hadoop, Parquet, Hive, Oozie, Confluence, Jira, Git, Jenkins, among others.}\\
+% --- Sberbank --- END
+
+\sepsection
+
+% --- AT Consulting --- START
+\resumeSubheading
+{AT Consulting \href{https://www.at-consulting.ru/}{\color{urlcolor}\faicon{link}}}{Moscow, Russian Federation}
+{Data Analytics Engineer}{October 2013 - June 2016}
+
+\resumeProjectDescription{Project}{Established a Data Lake for a leading telecom operator in Russia.}
+
+\resumeItemListStart
+\resumeItem{Development of data processing pipelines using distributed computing technologies}
+\resumeItem{Performance optimization and stabilization of a system}
+\resumeItem{General debugging, bug fixing and refactoring, code reviewing}
+\resumeItemListEnd
+\resumeTech{Technologies}{Java, SQL, Maven, Hadoop, Mapreduce, Hive, Pig, Sqoop, Oozie, Avro, Orc, Oracle, Jira, CentOS (bash), SVN.}\\
+% --- PerfectArt --- END
+
+\resumeSubHeadingListEnd
 % ---
-
-
-
 
 
 % EDUCATION
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Voronezh State University \href{http://www.vsu.ru/en/}{\color{urlcolor}\faicon{link}}}{Voronezh, Russian Federation}
-      {Bachelor's Degree in Mathematics and Computer science (Grade 4.4)}{2010 - 2014}
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{Voronezh State University \href{http://www.vsu.ru/en/}{\color{urlcolor}\faicon{link}}}{Voronezh, Russian Federation}
+{Bachelor's Degree in Mathematics and Computer science (Grade 4.4)}{2010 - 2014}
+\resumeSubHeadingListEnd
 % ---
 
 \end{document}
